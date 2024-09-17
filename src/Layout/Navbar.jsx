@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-screen xxs:flex sm:hidden  bg-blue-600 border border-red ">
+      <div className="w-full max-w-screen xxs:flex sm:hidden  bg-blue-600">
         <div className=" w-full max-w-screen px-5 py-3 sm:hidden xxs:flex xxs:flex-row xxs:items-center xxs:justify-between">
           {/* right side  */}
           <div onClick={handleNav}>
@@ -55,7 +55,7 @@ const Navbar = () => {
       </div>
       <div className={
               nav
-                ? "absolute xxs:w-[100%]  xxs:h-[30%] mx-auto  bg-blue-600 border-r-0  xxs:top-14 xxs:right-0 xxs:left-0 xxs:bottom-0    ease-in-out  duration-500   "
+                ? "absolute xxs:w-[100%]  xxs:h-[30%] mx-auto  bg-blue-600   xxs:top-10 xxs:right-0 xxs:left-0 xxs:bottom-0    ease-in-out  duration-500s   "
                 : "hidden"
             }>
             <div className="w-full mx-auto  font-bold text-white flex-row justify-center items-center text-center mt-5 px-4">

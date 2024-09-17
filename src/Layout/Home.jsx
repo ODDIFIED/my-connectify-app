@@ -17,7 +17,7 @@ const Home = () => {
       >
         <div className="bg-gray-400 xxs:min-h-screen md:min-h-screen sm:h-30 bg-opacity-35 sm:px-5 md:px-10  sm:py-5  ">
           <div className="sm:w-full xxs:flex xxs:flex-col-reverse xxs:justify-center sm:mt-14 md:mt-0 md:flex md:flex-row md:justify-between">
-            <div className="  md:w-[60%] sm:h-[40%] flex justify-center  items-center ">
+            <div className=" xxs:w-[100%] xxs:px-2 md:px-0 md:w-[60%] sm:h-[40%] flex justify-center  items-center ">
               <h2 className=" xxs:mt-5 sm:mt-16 md:mt-40 xxs:text-center md:text-left font-jose font-bold sm:text-4xl  md:text-7xl text-white text-primary">
                 The Simplest Whatsapp Sellers directory For Farmers
               </h2>
